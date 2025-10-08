@@ -450,7 +450,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/google/pixel/pixelstats \
-    hardware/google/pixel/power-libperfmgr
+    hardware/google/pixel/power-libperfmgr \
+    hardware/millennium
 
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
