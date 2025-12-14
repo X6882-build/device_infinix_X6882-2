@@ -313,6 +313,7 @@ $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
+    Launcher3ResTarget \
     SettingsResTarget \
     SettingsProviderResTarget \
     SystemUIResTarget \
