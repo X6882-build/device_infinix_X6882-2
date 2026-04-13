@@ -1984,9 +1984,6 @@ vendor/lib64/libifcutils_mtk.so
 # TNE
 vendor/lib64/libtneclient.so
 
-# Tranlog
-vendor/lib64/libtranlog.so
-
 # Wi-Fi
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/wifi/p2p_supplicant_overlay.conf
