@@ -1990,6 +1990,32 @@ vendor/lib64/libtneclient.so
 # Tranlog
 vendor/lib64/libtranlog.so
 
+# Thermal
+vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
+vendor/bin/frs
+vendor/bin/thermal
+vendor/bin/thermal_core
+vendor/bin/thermal_intf
+vendor/bin/thermal_manager
+vendor/bin/thermalloadalgod
+vendor/etc/.tp/.ht120.mtc
+vendor/etc/.tp/.thermal_policy_03
+vendor/etc/.tp/.thermal_policy_08
+vendor/etc/.tp/.thermal_policy_09
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.off.conf
+vendor/etc/dar_thermal_core/thermal_core_config.json
+vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
+vendor/etc/init/init.frs.rc
+vendor/etc/init/init.thermal.rc
+vendor/etc/init/init.thermal_core.rc
+vendor/etc/init/init.thermal_manager.rc
+vendor/etc/init/init.thermalloadalgod.rc
+vendor/etc/mpe.conf
+vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
+vendor/lib64/hw/thermal_hal.so
+vendor/lib64/libmtcloader.so
+
 # Wi-Fi
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/wifi/p2p_supplicant_overlay.conf
