@@ -270,7 +270,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.transsion
+    android.hardware.light-service.lineage
 
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
@@ -448,8 +448,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek/libmtkperf_client \
     hardware/mediatek/libaedv \
     hardware/google/interfaces \
-    hardware/google/pixel \
-    hardware/transsion
+    hardware/google/pixel
 
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
