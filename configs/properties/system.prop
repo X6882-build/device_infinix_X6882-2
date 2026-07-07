@@ -56,4 +56,16 @@ ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
 
 # Storage
+<<<<<<< HEAD
 persist.sys.fuse.passthrough.enable=true
+=======
+persist.sys.fuse.passthrough.enable=true
+
+# Thermal Management
+persist.thermal_config.mitigation=1
+ro.mtk_thermal_monitor.enabled=true
+
+# Thermal Configuration
+ro.config.thermal_dcs=40
+ro.config.thermal_limit=75
+>>>>>>> eb58f1f (X6882: drop & uses minimal thermal blobs)
