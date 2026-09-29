@@ -287,6 +287,7 @@ ro.vendor.mtk_ps1_rat=Lf/Lt/W/G
 ro.vendor.mtk_ril_mode=c6m_1rild
 ro.vendor.mtk_rild_read_imsi=1
 ro.vendor.mtk_sec_video_path_support=1
+ro.vendor.mtk_sim_card_onoff=3
 ro.vendor.mtk_sim_hot_swap_common_slot=1
 ro.vendor.mtk_single_bin_modem_support=1
 ro.vendor.mtk_wappush_support=1
@@ -298,6 +299,7 @@ ro.vendor.smvr.p2batch.vga=8
 ro.vendor.smvr.p2batch.hd=4
 telephony.active_modems.max_count=2
 vendor.connsys.driver.ready=no
+ro.telephony.sim.count=2
 
 # Sensors
 ro.vendor.init.sensor.rc=init.sensor_2_0.rc
