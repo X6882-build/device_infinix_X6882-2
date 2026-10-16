@@ -38,6 +38,9 @@ log.tag=I
 # Low Memory Killer
 ro.config.per_app_memcg=false
 
+# Luanris maintainer
+ro.lunaris.maintainer=javas
+
 # Media
 debug.stagefright.c2inputsurface=-1
 media.stagefright.thumbnail.prefer_hw_codecs=true
