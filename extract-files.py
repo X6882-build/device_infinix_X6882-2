@@ -123,6 +123,13 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbase_shim.so'),
     'vendor/lib64/librt_extamp_intf.so': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/bin/em_hidl': blob_fixup()
+        .remove_needed('libbluetooth_relayer.so')
+        .remove_needed('libbluetoothem_mtk.so'),
+    ('system_ext/lib64/libem_support_jni.so', 'system_ext/lib/libem_support_jni.so'): blob_fixup()
+        .add_needed('libjni_shim.so'),
+    'vendor/etc/init/em_hidl_user.rc': blob_fixup()
+        .regex_replace(r'[ \t]*interface vendor\.mediatek\.hardware\.engineermode.*\n', ''),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
