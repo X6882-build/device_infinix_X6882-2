@@ -505,7 +505,6 @@ $(call soong_config_set,wpa_supplicant_8,wifi_disable_wpa_version_3,true)
 PRODUCT_PACKAGES += \
     libwifi-hal-wrapper \
     android.hardware.wifi-service \
-    wlan_assistant \
     wpa_supplicant \
     hostapd
 
