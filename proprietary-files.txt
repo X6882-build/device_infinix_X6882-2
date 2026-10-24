@@ -175,11 +175,8 @@ vendor/lib64/libbt-vendor.so
 
 # Camera 
 vendor/bin/hw/mt6789/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
-vendor/bin/hw/vendor.transsion.hardware.trancam.trancamserver@1.0-service
 vendor/etc/init/camerahalserver.rc
-vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc
 -vendor/etc/vintf/manifest/manifest_cameraprovider.xml
--vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml
 vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
@@ -191,7 +188,6 @@ vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libcam3_tranelapsedtime.so
 vendor/lib64/libcam3_tranpriorityctrl.so
-vendor/lib64/libcam3_transerverengine.so
 vendor/lib64/libcamalgo.3dnr.so
 vendor/lib64/libcamalgo.dngop.so
 vendor/lib64/libcamalgo.eis.so
@@ -1117,15 +1113,6 @@ vendor/lib64/mt6789/libmtkcam_tuning_utils.so;SYMLINK=vendor/lib64/libmtkcam_tun
 vendor/lib64/mt6789/libmtkcam_ulog.so;SYMLINK=vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/mt6789/libremosaiclib.so;SYMLINK=vendor/lib64/libremosaiclib.so
 vendor/lib64/mt6789/libremosaic_wrapper.so;SYMLINK=vendor/lib64/libremosaic_wrapper.so
-vendor/lib64/mt6789/libSonyIMX230PdafLibrary.so;SYMLINK=vendor/lib64/libSonyIMX230PdafLibrary.so
-vendor/lib64/mt6789/libSonyIMX230PdafLibraryWrapper.so;SYMLINK=vendor/lib64/libSonyIMX230PdafLibraryWrapper.so
-vendor/lib64/mt6789/libSonyIMX338PdafLibrary.so;SYMLINK=vendor/lib64/libSonyIMX338PdafLibrary.so
-vendor/lib64/mt6789/libSonyIMX338PdafLibraryWrapper.so;SYMLINK=vendor/lib64/libSonyIMX338PdafLibraryWrapper.so
-vendor/lib64/mt6789/libSonyIMX386PdafLibrary.so;SYMLINK=vendor/lib64/libSonyIMX386PdafLibrary.so
-vendor/lib64/mt6789/libSonyIMX386PdafLibraryWrapper.so;SYMLINK=vendor/lib64/libSonyIMX386PdafLibraryWrapper.so
-vendor/lib64/mt6789/libSonyIMX519PdafLibrary.so;SYMLINK=vendor/lib64/libSonyIMX519PdafLibrary.so
-vendor/lib64/mt6789/libSonyIMX519PdafLibraryWrapper.so;SYMLINK=vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
-vendor/lib64/mtkcam/mt6789/libmtkcam_streaminfo_plugin-p1stt.so;SYMLINK=vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -1137,7 +1124,6 @@ vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
-vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so
 
 # Camera Configs
 vendor/etc/anc_siq/cache_s5kjn1_17201892_back_g97
