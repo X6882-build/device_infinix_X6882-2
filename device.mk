@@ -320,7 +320,8 @@ PRODUCT_PACKAGES += \
     OpenDeltaOverlayMT6789
 
 PRODUCT_PACKAGES += \
-    ApertureOverlay
+    ApertureOverlay \
+    LineageSDKResTarget
 
 # Permissions
 PRODUCT_COPY_FILES += \
