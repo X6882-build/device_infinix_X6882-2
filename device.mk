@@ -481,7 +481,7 @@ PRODUCT_FS_COMPRESSION := 1
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.millennium
+    android.hardware.vibrator-service.mediatek
 
 # VNDK
 PRODUCT_PACKAGES += \
