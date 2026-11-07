@@ -21,6 +21,7 @@ vendor/lib/libbwc.so
 vendor/lib/libkaraoke.so
 vendor/lib/libTransNS.so
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6789.so
+vendor/lib64/hw/awinic.audio.effect.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
